@@ -1,0 +1,55 @@
+body {
+    background-color: #999;
+    color: #000;
+}
+
+/* MEDIA QUERY */
+@media(min-width: 1200px) {
+    body {
+        background-color: #E0FFFF;
+        color: #000;
+    }
+}
+
+@media(min-width: 769px) and (max-width:979px) {
+    body {
+        background-color: #000;
+        color: #7FFF00;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 768px) {
+    body {
+        background-color: #AF5A5A;
+        color: #FFFFFF;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 767px) {
+    body {
+        background-color: #FF7F50;
+        color: #A9A9A9;
+    }
+}
+
+@media(max-width: 480px) {
+    body {
+        background-color: #8A2BE2;
+        color: #fff;
+    }
+}
+
+@media(max-width: 375px) {
+    body {
+        background-color: #5A73AF;
+        color: #fff;
+    }
+}
